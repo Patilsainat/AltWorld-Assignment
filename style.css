@@ -1,0 +1,404 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: beige;
+  background-repeat: no-repeat;
+}
+header {
+  display: flex;
+  flex-direction: column;
+}
+#alt img {
+  height: 30px;
+  border-radius: 10px;
+}
+.bar #alt h5 {
+  margin-top: 20px;
+}
+#home img {
+  height: 25px;
+  border-radius: 10px;
+  padding: 8px;
+}
+#alt {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  box-shadow: 0px 0px 1px grey;
+  display: flex;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.HomeBoard {
+  width: 20%;
+  padding: 10px;
+}
+.main {
+  padding-left: 20px;
+  width: 100%;
+}
+#alt h5 {
+  margin-top: 6px;
+  padding: 3px;
+}
+#home {
+  display: flex;
+}
+#home h5 {
+  margin-top: 12px;
+}
+#assignment {
+  background-color: #009999;
+  border-radius: 10px;
+  width: 100%;
+}
+#select {
+  padding: 7px;
+  padding-left: 10px;
+}
+#select h5,
+p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#select p {
+  font-size: 10px;
+  font-size: bold;
+  line-height: 18px;
+  margin-top: -7px;
+}
+#select button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: cursive;
+  font-weight: bold;
+  text-align: center;
+  font-size: 9px;
+  padding: 8px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+}
+#select img {
+  height: 30px;
+  padding-top: 5px;
+  border-radius: 10px;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+.navbar #Pages {
+  color: grey;
+}
+.navbar h5 {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 3px;
+}
+.right {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border-radius: 10px;
+}
+.leftone {
+  width: 40%;
+  background-color: rgb(254, 255, 253);
+  padding-right: 5px;
+  margin-right: 7px;
+  border-radius: 8px;
+  padding: 8px;
+  height: 70vh;
+}
+.rightone {
+  display: flex;
+  background-color: rgb(254, 255, 253);
+  padding: 10px;
+  width: 100%;
+  border-radius: 15px;
+  height: 76vh;
+}
+.lefttwo {
+  width: 100%;
+  background-color: rgb(254, 255, 253);
+  padding: 10px;
+}
+.lefttwo img {
+  height: 30px;
+  border-radius: 5px;
+}
+.singh {
+  display: flex;
+}
+.singh h5 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-top: 0;
+  padding: 2px;
+  font-style: italic;
+  margin-left: 4px;
+}
+.righttwo {
+  background-color: grey;
+  width: 100%;
+  border-radius: 10px;
+}
+.righttwo img {
+  margin-top: 40px;
+  height: 66vh;
+  width: 100%;
+  border-radius: 5px;
+}
+.singh h3 {
+  color: rgb(19, 136, 25);
+  font-style: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+#one {
+  padding: 5px;
+}
+#one h5 {
+  font-size: 8px;
+  padding: 3px;
+}
+#one p {
+  color: grey;
+  font-style: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 7px;
+  margin-top: 20px;
+  margin-left: -55px;
+}
+.email h3 {
+  margin-left: 155px;
+}
+.email {
+  display: flex;
+  flex-direction: row;
+}
+#about p,
+#experience p,
+#hobbies p,
+#intro p {
+  color: grey;
+  font-size: 9px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: bold;
+  font-weight: bold;
+}
+#about h3,
+#experience h3,
+#hobbies h3,
+#intro h3 {
+  font-size: 12px;
+  font-weight: 1500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.percentage {
+  color: green;
+  font-weight: bold;
+}
+.color1,
+.color2,
+.color3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.range,
+.hour {
+  padding: 0px;
+}
+.color1 h3,
+.color2 h3,
+.color3 h3 {
+  font-size: 8px;
+  margin-top: 2px;
+  color: grey;
+  font-weight: bold;
+}
+.color1 .progress {
+  margin-left: 11.5px;
+}
+.color3 .progress {
+  margin-left: -8px;
+}
+#button {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #009999;
+  width: 100%;
+  border: none;
+  padding: 10px;
+  margin-top: 29px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+}
+.footer p {
+  color: black;
+}
+#footer1 p {
+  color: grey;
+  margin-left: 235px;
+  margin-top: 35px;
+  font-size: small;
+}
+#footer2 a {
+  text-decoration: none;
+  color: grey;
+  font-size: small;
+  margin-top: 35px;
+  margin-left: 200px;
+}
+#play {
+  width: 35px;
+  height: 35px;
+  border-radius: 15px;
+  margin-top: -200px;
+  margin-left: 140px;
+}
+.bde {
+  display: flex;
+  flex-direction: row;
+}
+.bde h3 {
+  margin-left: 140px;
+}
+.bde h4 {
+  margin-left: 5px;
+}
+#pen {
+  width: 30px;
+  height: 20px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 12px;
+  box-shadow: 1px 1px 0px grey;
+}
+#one,
+#two,
+#three {
+  display: flex;
+  flex-direction: row;
+  color: grey;
+}
+#one a {
+  text-decoration: none;
+  color: blue;
+  font-size: 10px;
+  margin-left: 90px;
+  margin-top: 11.5px;
+}
+#two,
+#three {
+  margin-top: -20px;
+  font-size: 12px;
+  margin-left: 8px;
+}
+#three h5 {
+  margin-left: 130px;
+}
+#two h5 {
+  margin-left: 160px;
+}
+.preview {
+  display: flex;
+  flex-direction: row;
+}
+#review button img {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  font-weight: bold;
+}
+#review button {
+  background-color: white;
+  border: none;
+  box-shadow: 0px 0px 1px grey;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  font-weight: bold;
+  font-size: 10px;
+  letter-spacing: 0.1px;
+}
+#shortlist button img {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  font-weight: bold;
+}
+#shortlist button {
+  background-color: white;
+  border: none;
+
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  font-weight: bold;
+  font-size: 10px;
+  letter-spacing: 0.1px;
+}
+.candidate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: grey;
+  font-size: 10px;
+}
+.saurav,
+.sauravone {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#saurav1 img,
+#sauravtwo img {
+  width: 22px;
+  height: 22px;
+  border-radius: 4px;
+}
+#saurav2 h5,
+#sauravthree h5 {
+  color: black;
+  margin-top: 1.9px;
+  margin-left: -110px;
+  font-size: 8px;
+}
+#saurav2 p,
+#sauravthree p {
+  color: grey;
+  font-size: 6px;
+  margin-left: -107px;
+  margin-top: -11px;
+}
+#hello {
+  color: green;
+  margin-top: 4px;
+}
+#hello1 {
+  color: orange;
+  margin-top: 4px;
+}
+.bde h4 {
+  width: 30px;
+  font-size: smaller;
+  font-family: "Times New Roman",  Times,  serif;
+}
